@@ -4,7 +4,7 @@
 from ultralytics import YOLO
 
 # loads a small pretrained yolo model
-model = YOLO("yolov8s.pt")
+model = YOLO("yolov8n.pt")
 imageName = 'cat_dog.jpg'
 
 results = model.predict(imageName)
